@@ -3,7 +3,7 @@
 ### :pushpin: Overview
 
 - Bachelor of Science in Electornic Engineering
-- Finish course of Samsumg Software Academy for Youth(SSAFY)
+- Finish course of Samsung Software Academy for Youth(SSAFY)
 
 ### :pushpin: Tech Stack(Frontend)
 
