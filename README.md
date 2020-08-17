@@ -2,7 +2,30 @@
 
 ### :round_pushpin: Wanna Be Frontend Engineer
 
-- `Vue.js`, `Javascript`, `HTML`, `CSS`
-- `React`, `Sass`(learning)
+```javascript
+class Engineer {
+  constructor(name, experiences, subject, teckStack) {
+    this.name = name;
+    this.experiences = experiences;
+    this.subject = subject;
+    this.teckStack = teckStack;
+  }
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=wally-wally&show_icons=true&theme=radical)
+  introduction() {
+    console.log(`${this.name}'s Experience`);
+    this.experiences.map((experience, index) => console.log(`${index + 1}. ${experience}`));
+    console.log(`${this.name}'s ${this.subject} tech stack`);
+    console.log(this.teckStack.join(' / '));
+  }
+}
+
+const experiences = [
+  'Bachelor of Science in Electornic Engineering',
+  'Finish course of Samsung Software Academy for Youth(SSAFY)'
+];
+const subject = 'Frontend';
+const teckStack = ['HTML', 'CSS', 'JS', 'Vue.js'];
+const wally = new Engineer('wally-wally', experiences, subject, teckStack);
+wally.introduction();
+```
+
