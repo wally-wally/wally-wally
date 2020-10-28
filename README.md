@@ -20,11 +20,12 @@ class Engineer {
 }
 
 const experiences = [
+  'Gabia Inc. Frontend Developer'
   'Bachelor of Science in Electornic Engineering',
   'Finish course of Samsung Software Academy for Youth(SSAFY)'
 ];
 const subject = 'Frontend';
-const teckStack = ['HTML', 'CSS', 'JS', 'Vue.js'];
+const teckStack = ['HTML', 'CSS', 'Sass', 'JS', 'Vue.js'];
 const wally = new Engineer('wally-wally', experiences, subject, teckStack);
 wally.introduction();
 ```
