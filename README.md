@@ -3,7 +3,7 @@
 ### :round_pushpin: Frontend Developer
 
 ```javascript
-class Engineer {
+class Developer {
   constructor(name, experiences, subject, teckStack) {
     this.name = name;
     this.experiences = experiences;
@@ -20,12 +20,12 @@ class Engineer {
 }
 
 const experiences = [
-  'Gabia Inc. Frontend Developer'
+  'Gabia Inc. Frontend Developer',
   'Bachelor of Science in Electornic Engineering',
   'Finish course of Samsung Software Academy for Youth(SSAFY)'
 ];
 const subject = 'Frontend';
 const teckStack = ['HTML', 'CSS', 'Sass', 'JS', 'Vue.js'];
-const wally = new Engineer('wally-wally', experiences, subject, teckStack);
+const wally = new Developer('wally-wally', experiences, subject, teckStack);
 wally.introduction();
 ```
