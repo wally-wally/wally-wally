@@ -1,6 +1,6 @@
 ## :hand: Hi there [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:wallys0213@gmail.com)](mailto:wallys0213@gmail.com) <a href="https://wally-wally.kr" target="_blank">(:arrow_upper_right: More About Me)</a>
 
-### :round_pushpin: Wanna Be Frontend Engineer
+### :round_pushpin: Frontend Developer
 
 ```javascript
 class Engineer {
@@ -29,4 +29,3 @@ const teckStack = ['HTML', 'CSS', 'Sass', 'JS', 'Vue.js'];
 const wally = new Engineer('wally-wally', experiences, subject, teckStack);
 wally.introduction();
 ```
-
