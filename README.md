@@ -20,9 +20,9 @@ class Developer {
 }
 
 const experiences = [
-  'Gabia Inc. Frontend Developer',
-  'Bachelor of Science in Electornic Engineering',
-  'Finish course of Samsung Software Academy for Youth(SSAFY)'
+  'Gabia Inc. Frontend Developer(2020.10 ~ ing)',
+  'Finish course of Samsung Software Academy for Youth(SSAFY)(2019.07 ~ 2020.06)',
+  'Bachelor of Science in Electornic Engineering(2013.03 ~ 2019.02)'
 ];
 const subject = 'Frontend';
 const teckStack = ['HTML', 'CSS', 'Sass', 'JS', 'Vue.js'];
