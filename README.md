@@ -25,7 +25,7 @@ const experiences = [
   'Bachelor of Science in Electornic Engineering(2013.03 ~ 2019.02)'
 ];
 const subject = 'Frontend';
-const teckStack = ['HTML', 'CSS', 'Sass', 'JS', 'Vue.js'];
+const teckStack = ['HTML', 'CSS', 'Sass', 'JS', 'Vue.js', 'Python'];
 const wally = new Developer('wally-wally', experiences, subject, teckStack);
 wally.introduction();
 ```
