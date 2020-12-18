@@ -32,5 +32,5 @@ wally.introduction();
 
 | Used Programming Languages                                   | Baekjoon Online Judge Badge                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=wally-wally&layout=compact&hide=HTML) | [![BOJ](http://mazassumnida.wtf/api/v2/generate_badge?boj=simseen0213)](https://solved.ac/profile/simseen0213) |
+| ![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=wally-wally&layout=compact&hide=HTML&theme=dracula) | [![BOJ](http://mazassumnida.wtf/api/v2/generate_badge?boj=simseen0213)](https://solved.ac/profile/simseen0213) |
 
