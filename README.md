@@ -21,16 +21,17 @@ class Developer {
 
 const experiences = [
   'Gabia Inc. Frontend Developer(2020.10 ~ ing)',
+  'Complete SSAFY Overseas Training Program(India Delhi)(2019.12)',
   'Finish course of Samsung Software Academy for Youth(SSAFY)(2019.07 ~ 2020.06)',
   'Bachelor of Science in Electornic Engineering(2013.03 ~ 2019.02)'
 ];
 const subject = 'Frontend';
-const teckStack = ['HTML', 'CSS', 'Sass', 'JS', 'Vue.js', 'Python'];
+const teckStack = ['HTML', 'CSS', 'Sass', 'Javascript', 'Typescript', 'Vue.js', 'Python'];
 const wally = new Developer('wally-wally', experiences, subject, teckStack);
 wally.introduction();
 ```
 
 | Used Programming Languages                                   | Baekjoon Online Judge Badge                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=wally-wally&layout=compact&hide=HTML&theme=dracula) | [![BOJ](http://mazassumnida.wtf/api/v2/generate_badge?boj=simseen0213)](https://solved.ac/profile/simseen0213) |
+| ![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=wally-wally&langs_count=8&layout=compact&hide=java,html,jupyter%20notebook&theme=dracula) | [![BOJ](http://mazassumnida.wtf/api/v2/generate_badge?boj=simseen0213)](https://solved.ac/profile/simseen0213) |
 
