@@ -39,4 +39,5 @@ wally.introduction();
 
 ### :round_pushpin: Ongoing Projects
 
-- Apply `Pug`, `Sass`, `Typescript` language to My Homepage(<a href="https://wally-wally.kr" target="_blank">wally-wally.kr</a>)
+- Apply `Pug`, `Sass`, `Typescript` languages to My Homepage(<a href="https://wally-wally.kr" target="_blank">wally-wally.kr</a>) with `Vue.js` framework
+  - Change `HTML`, `CSS`, `Javascript` to `Pug`, `Sass`, `Typescript`
