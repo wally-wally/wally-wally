@@ -35,3 +35,8 @@ wally.introduction();
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=wally-wally&langs_count=8&layout=compact&hide=java,html,jupyter%20notebook&theme=dracula) | [![BOJ](http://mazassumnida.wtf/api/v2/generate_badge?boj=simseen0213)](https://solved.ac/profile/simseen0213) |
 
+<br>
+
+### :round_pushpin: Ongoing Projects
+
+- Apply `Pug`, `Sass`, `Typescript` language to My Homepage(<a href="https://wally-wally.kr" target="_blank">wally-wally.kr</a>)
