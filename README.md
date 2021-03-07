@@ -31,6 +31,10 @@ const wally = new Developer('wally-wally', experiences, subject, teckStack);
 wally.introduction();
 ```
 
+| Used Programming Languages                                   | Baekjoon Online Judge Badge                                  |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=wally-wally&langs_count=8&layout=compact&hide=java,html,jupyter%20notebook&theme=dracula) | [![BOJ](http://mazassumnida.wtf/api/v2/generate_badge?boj=simseen0213)](https://solved.ac/profile/simseen0213) |
+
 <br>
 
 ### :round_pushpin: Ongoing Projects
