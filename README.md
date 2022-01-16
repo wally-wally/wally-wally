@@ -4,18 +4,18 @@
 
 ```javascript
 class Developer {
-  constructor(name, experiences, subject, teckStack) {
+  constructor(name, experiences, subject, techStack) {
     this.name = name;
     this.experiences = experiences;
     this.subject = subject;
-    this.teckStack = teckStack;
+    this.techStack = techStack;
   }
 
   introduction() {
     console.log(`${this.name}'s Experience`);
     this.experiences.forEach((experience, index) => console.log(`${index + 1}. ${experience}`));
     console.log(`${this.name}'s ${this.subject} tech stack`);
-    console.log(this.teckStack.join(' / '));
+    console.log(this.techStack.join(' / '));
   }
 }
 
@@ -27,12 +27,8 @@ const experiences = [
   'Bachelor of Science in Electornic Engineering(2013.03 ~ 2019.02)'
 ];
 const subject = 'Frontend';
-const teckStack = ['Vue.js', 'Javascript', 'Typescript', 'HTML', 'CSS', 'Sass'];
-const wally = new Developer(username, experiences, subject, teckStack);
+const techStack = ['Vue.js', 'Javascript', 'Typescript', 'HTML', 'CSS', 'Sass'];
+const wally = new Developer(name, experiences, subject, techStack);
 
 wally.introduction();
 ```
-
-| Used Programming Languages                                   | Baekjoon Online Judge Badge                                  |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=wally-wally&langs_count=8&layout=compact&hide=java,html,jupyter%20notebook&theme=dracula) | [![BOJ](http://mazassumnida.wtf/api/v2/generate_badge?boj=simseen0213)](https://solved.ac/profile/simseen0213) |
