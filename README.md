@@ -1,34 +1,51 @@
-## :hand: Hi there [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:wallys0213@gmail.com)](mailto:wallys0213@gmail.com) <a href="https://wally-wally.kr" target="_blank">(:arrow_upper_right: More About Me)</a>
+## :hand: Hi there!
 
 ### :round_pushpin: Frontend Developer
 
 ```javascript
 class Developer {
-  constructor(name, experiences, subject, techStack) {
+  constructor(name, category, techStacks, experiences) {
     this.name = name;
+    this.category = category;
+    this.techStacks = techStacks;
     this.experiences = experiences;
-    this.subject = subject;
-    this.techStack = techStack;
   }
 
   introduction() {
-    console.log(`${this.name}'s Experience`);
-    this.experiences.forEach((experience, index) => console.log(`${index + 1}. ${experience}`));
-    console.log(`${this.name}'s ${this.subject} tech stack`);
-    console.log(this.techStack.join(' / '));
+    const commonConsoleStyle = 'color: #2985db; font-size: large';
+      
+    console.group(`%c1. ${this.name}'s ${this.category} Tech Stacks`, commonConsoleStyle);
+    Object.entries(this.techStacks).forEach(([priority, techStacks], index) => {
+      console.log(`(${index + 1}) ${priority}: ${techStacks.join(', ')}`)
+    });
+    console.groupEnd();
+
+    console.group(`%c2. ${this.name}'s Experiences (The Latest Order)`, commonConsoleStyle);
+    console.table(experiences.reduce((acc, curr, index) => ({ ...acc, [`(${index + 1})`]: curr }), {}));
+    console.groupEnd();
   }
 }
 
 const name = 'wally-wally';
+const category = 'Frontend';
+const techStacks = {
+  main: ['Vue.js', 'Javascript', 'Typescript', 'HTML', 'CSS', 'Sass'],
+  sub: ['React', 'Python'],
+};
 const experiences = [
-  'Gabia Inc. Frontend Developer(2020.10 ~ ing)',
-  'Complete SSAFY Overseas Training Program(India Delhi)(2019.12)',
-  'Finish course of Samsung Software Academy for Youth(SSAFY)(2019.07 ~ 2020.06)',
-  'Bachelor of Science in Electornic Engineering(2013.03 ~ 2019.02)'
+  { title: 'Gabia Inc. Frontend Developer & Unit Leader', date: '2020.10 ~ ing'},
+  { title: 'Finish course of Samsung Software Academy for Youth(SSAFY)', date: '2019.07 ~ 2020.06'},
+  { title: 'Bachelor of Science in Electornic Engineering', date: '2013.03 ~ 2019.02'},
 ];
-const subject = 'Frontend';
-const techStack = ['Vue.js', 'Javascript', 'Typescript', 'HTML', 'CSS', 'Sass'];
-const wally = new Developer(name, experiences, subject, techStack);
+
+const wally = new Developer(name, category, techStacks, experiences);
 
 wally.introduction();
 ```
+
+<br>
+
+### :round_pushpin: Contact Me!
+
+[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:wallys0213@gmail.com)](mailto:wallys0213@gmail.com) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white)](https://www.instagram.com/wally.213/)  <a href="https://wally-wally.kr" target="_blank">:man_office_worker: More About Me</a>
+
